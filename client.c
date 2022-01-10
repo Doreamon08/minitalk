@@ -6,7 +6,7 @@
 /*   By: rabbie <rabbie@student.21-school.ru>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/01 16:08:18 by rabbie            #+#    #+#             */
-/*   Updated: 2022/01/10 19:50:25 by rabbie           ###   ########.fr       */
+/*   Updated: 2022/01/10 21:32:58 by rabbie           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ int	main(int av, char **ac)
 
 	if (av != 3)
 	{
-		printf("Error\n");
+		wtite(1, "Error\n", 6);
 		return (1);
 	}
 	pid = ft_atoi(ac[1]);
